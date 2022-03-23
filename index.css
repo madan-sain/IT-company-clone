@@ -5,6 +5,7 @@
     text-decoration: none;
     transition: all 0.2 ease-in;
     text-transform: capitalize;
+    overflow-x: hidden;
   
 }
 

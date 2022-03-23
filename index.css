@@ -1,0 +1,117 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2 ease-in;
+    text-transform: capitalize;
+}
+
+body
+{
+    
+    overflow-x: hidden;
+}
+.topbar
+{ 
+   color: #fff;
+    
+}
+.topbar a
+{
+    color: #fff;
+    text-decoration: none;
+}
+#home
+{
+    background-image: linear-gradient(to right,#4144f0,#2012eb);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.nav-item .nav-link
+ {
+    margin-left:30px;
+    color: #fff;
+   
+}
+.call-button
+{
+    background-color: coral; 
+    color: #fff;
+    border-radius: 5px;
+}
+.call-button:hover
+{
+    background-color: crimson;
+    color: #fff
+;
+}
+/* .home h1,h2
+{
+    width: 100%;
+    
+    position: relative;
+    top: 2rem;
+   
+} */
+/* .home img
+{
+    width:200% ;
+    position: relative;
+    top: 8%;
+} */
+.whatshap
+{
+    position: absolute;
+    z-index: 1;
+}
+.homeimage img
+{
+    animation: MoveUpDown 1s linear infinite;
+   position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
+
+/* home part css is done  */
+
+.whatshap
+{
+    position: fixed;
+    left:75rem;
+    bottom: 3rem;
+    /* cursor: pointer; */
+    /* border-radius: 50px; */
+}
+.service-part
+{
+    background-image: linear-gradient(to right,#0a2cf0,#2c38a7);
+    
+}
+
+
+.card-first
+{
+    background-color: #074BA2;
+} 
+
+.mastercard
+{
+    padding: 20px;
+    
+}

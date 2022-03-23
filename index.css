@@ -1,56 +1,55 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     transition: all 0.2 ease-in;
     text-transform: capitalize;
+  
 }
 
-body
-{
-    
+body {
+
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
-.topbar
-{ 
-   color: #fff;
-    
+
+.topbar {
+    color: #fff;
+
 }
-.topbar a
-{
+
+.topbar a {
     color: #fff;
     text-decoration: none;
 }
-#home
-{
-    background-image: linear-gradient(to right,#4144f0,#2012eb);
+
+#home {
+    background-image: linear-gradient(to right, #4144f0, #2012eb);
     min-height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  
+
 }
 
-.nav-item .nav-link
- {
-    margin-left:30px;
+.nav-item .nav-link {
+    margin-left: 30px;
     color: #fff;
-   
+
 }
-.call-button
-{
-    background-color: coral; 
+
+.call-button {
+    background-color: coral;
     color: #fff;
     border-radius: 5px;
 }
-.call-button:hover
-{
+
+.call-button:hover {
     background-color: crimson;
-    color: #fff
-;
+    color: #fff;
 }
+
 /* .home h1,h2
 {
     width: 100%;
@@ -65,53 +64,80 @@ body
     position: relative;
     top: 8%;
 } */
-.whatshap
-{
+.whatshap {
     position: absolute;
     z-index: 1;
 }
-.homeimage img
-{
+
+.homeimage img {
     animation: MoveUpDown 1s linear infinite;
-   position: relative;
+    position: relative;
     left: 0;
     bottom: 0;
 }
 
 
 @keyframes MoveUpDown {
-  0%, 100% {
-    bottom: 0;
-  }
-  50% {
-    bottom: 10px;
-  }
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 10px;
+    }
 }
 
 /* home part css is done  */
 
-.whatshap
-{
+.whatshap {
     position: fixed;
-    left:75rem;
+    left: 75rem;
     bottom: 3rem;
     /* cursor: pointer; */
     /* border-radius: 50px; */
 }
-.service-part
-{
-    background-image: linear-gradient(to right,#0a2cf0,#2c38a7);
-    
+
+.service-part {
+    background-image: linear-gradient(to right, #0a2cf0, #2c38a7);
+
 }
 
 
-.card-first
-{
+.card-first {
     background-color: #074BA2;
-} 
+}
 
-.mastercard
-{
+.mastercard {
     padding: 20px;
+
+}
+
+.from-control a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px
+}
+
+.clint-card {
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 0.1px solid gray;
+    margin: 10px;
+}
+
+.clint-card:hover {
+    border: 1px solid crimson;
+
+    box-shadow: 10px 10px 10px gray;
+
+}
+.footer a
+{
+    list-style: none;
+    text-decoration:none ;
+    color: #fff;
     
 }
